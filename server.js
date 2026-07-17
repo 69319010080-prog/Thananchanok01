@@ -177,10 +177,10 @@ console.log("Server Running...");<br>
 
 </body>
 </html>
-
-`);
+    `);
 });
 
+// เริ่มต้น Server
 server.listen(port, () => {
-    console.log(\`Server is running on port \${port}\`);
+    console.log(`Server is running on port ${port}`);
 });
